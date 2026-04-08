@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+
+.streamlit/secrets.toml
+
+# event_data/processed/*.parquet
+# event_data/processed/*.duckdb
+
+analysis/
+notebooks/
+
+data/hudl_exports/
+data/statsbomb_exports/
+data/mapping_outputs/
+
+src/__pycache__/
+.ipynb
+logos/view.htm
